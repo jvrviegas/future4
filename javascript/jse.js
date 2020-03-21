@@ -8,5 +8,6 @@ function capturar(){
     }else {
         alert('O email ' +id+' foi enviado!');
         document.getElementById('inputId').value='';
+        document.getElementById('para1').innerHTML = 'Seja bem vindo!';
     }
 }
