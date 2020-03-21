@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;/* aproveiitando 100% da fonte*/
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #595F96;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+/**Configurações padrões**/
+.container{
+    width:100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+}
+.bgGradient{
+    background: linear-gradient(to left, #d8d8d8,#595F96);
+}
+.bgGradientMenu{
+    background: linear-gradient(to left, #CD4D00,#595F96);
+}
+.logo{
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url(../img/logmobile.png) center center/56px no-repeat;
+}
+/** Menu**/
+
+.menu{
+    position: relative;
+    top: 20px;
+    right: 2%;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+   
+
+.menu ul li{
+   padding: 2%;
+   display: inline;
+   
+}
+.menu ul li a{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    color: #FFF;
+    
+}
+.cabecalho{
+    position: absolute;
+    padding: 0% 0%;  
+}
+.banner{
+    position: relative;
+    padding: 4% 0%;
+    top: 56px;     
+}
+
+.conteudoPrincipal{
+    position: relative;
+    padding: 0% 0%;   
+    top: 56px;
+}
+.newsletter{
+    position: relative;
+    padding: 0% 0%;   
+    top: 90px;
+}
+
+
+#para1 {
+    text-align:center;
+    color:White;
+    font-size: 150%;
+    font-family: Arial, sans-serif;
+  }
+
+  #para2 {
+    position: relative;
+    color:White;
+    right: 4%;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    text-align: right;
+  }
+  
+  form input{
+    margin:15 0 20px;
+    padding: 1% 1%;
+    width:30%;
+    border-radius: 10px;
+    border: none;
+  }
+  .enviar{
+    width:15%;
+    padding: 1% 1%;
+    background: #CD4D00;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    text-align:center;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  }
+  .baixo{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+  }
